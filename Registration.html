@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>報名表單</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/3.5 Registration.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+    <div id="wapper">
+         <!-- 上層選單列 -->
+         <nav id="top">  
+            <div class="topCenter">
+                <div id="chlogo"><a href="1. Fongpage.html"><img src="pic/Ch Logo.png" alt=""></a></div>
+     
+                <ul>
+                    <li> <a href="1. Fongpage.html">首頁</a></li>
+                    <li> <a href="2. About.html">關於兔言</a></li>
+                    <li> <a href="3.1 All News.html">最新消息</a></li>
+                    <li> <a href="4. Store.html">店面介紹</a></li>
+                    <li> <a href="https://www.opentable.com.tw/restaurant/profile/183104?corrid=1ee8be68-538a-4529-ab97-979b9cbe0917&avt=eyJ2IjoyLCJtIjoxLCJwIjowLCJzIjowLCJuIjowfQ&p=2&sd=2024-06-07T19%3A00%3A00">線上預約</a></li>
+                    <li id="map"><a href="4. Store.html"><img src="pic/map.png" alt=""></a></li>
+                </ul>
+            </div>
+        </nav>
+    
+        <!-- 區塊1:Banner -->
+        <header id="ab-bn">
+            <div id="bn-text">
+                <img src="pic/BN-logo.png" alt="">
+                <h1 class="h1">活動報名</h1>
+                <span class="bn-line"></span>
+                <h2 class="h2">Event Registration</h2>
+            </div>
+    
+            <div id="kv">
+                <img src="pic/2.About/BN1.png" alt="">
+            </div>
+        </header>
+
+        <div id="main">
+            <h3>報名資料</h3>
+            <ul>
+                <!-- 報名的活動為 -->
+                <li>
+                    <p>參加報名的活動是</p>
+                    <input class="mother" type="radio" name="xx" />
+                    <span>歡慶母親節特別企劃</span>
+                    <input class="cake" type="radio" name="xx" />
+                    <span>與兔寶共製蛋糕</span>
+                    <input class="worker" type="radio" name="xx" />
+                    <span>各位上班族辛苦了！</span>
+                    <input class="yoga" type="radio" name="xx" />
+                    <span>兔寶一起瑜珈Go！</span>
+                </li>
+                <!-- 姓名 -->
+                <li>
+                    <p>報名人姓名</p>
+                    <input class="name" type="text" />
+                </li>
+                <!-- 電話 -->
+                <li>
+                    <p>報名人電話</p>
+                    <input class="phone" type="text" />
+                </li>
+                <!-- 參與人員 -->
+                <li>
+                    <p>參與人員有幾位</p>
+                    <input class="many" type="text">
+                </li>
+                <!-- 是否攜帶寵物 -->
+                <li>
+                    <p>是否攜帶寵物</p>
+                    <input class="yes" type="radio" name="xx" />
+                    <span>是</span>
+                    <input class="no" type="radio" name="xx" />
+                    <span>否</span>
+                </li>
+                <!-- 攜帶寵物數量 -->
+                <li>
+                    <p>攜帶的寵物數量</p>
+                    <input class="manypet" type="text">
+                </li>
+                <!-- 攜帶寵物種類 -->
+                <li>
+                    <p>攜帶的寵物種類</p>
+                    <input class="dog" type="radio" name="xx" />
+                    <span>狗</span>
+                    <input class="cat" type="radio" name="xx" />
+                    <span>貓</span>
+                    <input class="rabbit" type="radio" name="xx" />
+                    <span>兔</span>
+                    <input class="mouse" type="radio" name="xx" />
+                    <span>鼠</span>
+                </li>
+                <!-- 送出 -->
+                <li>
+                    <input class="send" type="submit" value="Send" />
+                </li>
+            </ul>
+        </div>
+
+    </div>
+<script src="js/jquery-3.7.1.min.js"></script>
+<script src="js/3.4 Rabbit Adoption.js"></script> 
+</body>
+</html>
